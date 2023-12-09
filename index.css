@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(241, 241, 241) !important;
+}
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .flex-div {
+    width: 80%;
+    margin: auto !important;
+    display: flex;
+ 
+  
+    align-items: center;
+  }
+  
+  .name-content {
+    
+    max-width: 50%;
+    margin-right: 20px;
+   
+    
+  }
+  
+  .name-content .logo {
+    font-weight: 700 !important;
+    font-size:70px;
+    color: #1877f2;
+    
+    margin-right: 20px;
+  }
+  
+  .name-content p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5rem;
+  }
+  .form
+  {
+    width: 500px !important;
+    height: 380px;
+  }
+  form {
+   
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 2rem;
+    
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+  }
+  
+  form input {
+    outline: none;
+    padding: 0.8rem 2rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid rgb(190, 189, 189);
+    font-size: 1.1rem;
+  }
+  
+  form input:focus {
+    border: 1.8px solid #1877f2;
+  }
+  
+  form .login {
+    outline: none;
+    font-weight: 500;
+    border: none;
+    background: #1877f2;
+    padding: 0.8rem 1rem;
+    border-radius: 0.4rem;
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  form .login:hover {
+    background: #0f71f1;
+    cursor: pointer;
+  }
+  
+  form a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 0.8rem;
+    color: #1877f2;
+  }
+  
+  form hr {
+    background: #f7f7f7;
+    margin: 1rem;
+  }
+  
+  form .create-account {
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background: #06b909;
+    padding: 0.8rem 0.4rem;
+    border-radius: 0.4rem;
+    font-size:20px;
+    color: #fff;
+    width: 81%;
+    margin: 0 auto;
+  }
+  
+  form .create-account:hover {
+    background: #03ad06;
+    cursor: pointer;
+  }
