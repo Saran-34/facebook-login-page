@@ -2,6 +2,7 @@ body{
     background-color: rgb(241, 241, 241) !important;
 }
 .content {
+    min-width:400px;
     position: absolute;
     top: 50%;
     left: 50%;
